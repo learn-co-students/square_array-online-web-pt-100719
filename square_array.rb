@@ -1,5 +1,7 @@
 def square_array(array)
+  square = []
   array.each do |array|
-   array*array
+   square << array*array
   end 
+  square
 end
