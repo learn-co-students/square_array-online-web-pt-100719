@@ -6,7 +6,8 @@ end
   
 def square!
     new numbers = [5,6,7,8]
-      square_array(new_numbers)  
-        self.new_numbers! {|num| num ** 2}
+      arr = []
+  array.each { |new_numbers| arr << new_numbers ** 2 }
+  arr
 end
 
