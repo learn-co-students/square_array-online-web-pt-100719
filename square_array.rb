@@ -8,7 +8,6 @@ def
        self.numbers! {|num| num ** 2}
     arr
   end
-
   
   new numbers = [5,6,7,8]
   
