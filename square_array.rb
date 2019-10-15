@@ -1,7 +1,6 @@
 def square
   numbers = [1,2,3,4]
-    arr = []
-      array.each { 
+    
 end
   
 def square
