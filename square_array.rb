@@ -13,7 +13,9 @@ def
   new numbers = [5,6,7,8]
   
   def square!
-    self.new_numbers! {|num| num ** 2}
+    arr = []
+      self.new_numbers! {|num| num ** 2}
+    arr  
   end
   
   square_array(new_numbers)
