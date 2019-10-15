@@ -4,7 +4,9 @@ def
   square_array(numbers)
   
   def square!
-    self.numbers! {|num| num ** 2}
+     arr = []    
+       self.numbers! {|num| num ** 2}
+    arr
   end
 
   
