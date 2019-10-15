@@ -1,7 +1,7 @@
 def square
   numbers = [1,2,3,4]
-    square_array(numbers)
-       self.numbers! {|num| num ** 2}
+    arr = []
+      array.each { 
 end
   
 def square
