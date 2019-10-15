@@ -1,6 +1,8 @@
 def square
   numbers = [1,2,3,4]
-    
+    arr = []
+  array.each { |numbers| arr << numbers ** 2 }
+  arr
 end
   
 def square
