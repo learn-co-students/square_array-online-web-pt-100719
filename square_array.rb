@@ -1,9 +1,6 @@
 def square_array(array)
   # your code here
   new_arr = []
-  array.each do |num|
-    num *= num
-    new_arr.push(num)
-  end
+  array.each {|n| new_arr << n *= n}
   new_arr
 end
